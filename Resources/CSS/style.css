@@ -37,3 +37,41 @@ li.top {
   height: 100%;
   text-decoration: underline;
 }
+#main {
+  border: 2px solid black;
+  display: flex;
+  width: 630px;
+}
+
+#mid {
+  display: inline-flex;
+  width: 300px;
+  border: 2px solid black;
+  align-items: center;
+}
+
+
+#side {
+  display: inline-flex;
+  width: 240px;
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+
+}
+
+.column.medium {
+  width: 300px;
+
+
+}
+
+.column.small {
+  width: 240px;
+
+}
+
+body {
+  width: 100%
+}
