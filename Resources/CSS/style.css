@@ -2,8 +2,8 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
   height: 90px;
+  width: 100%;
 }
 
 div.logo {
@@ -11,6 +11,7 @@ div.logo {
   align-items: center;
   position: fixed;
   margin-left: 30px;
+  border-bottom: 1px solid black;
 }
 
 header p {
@@ -40,50 +41,32 @@ li.top {
   text-decoration: underline;
 }
 
-#main {
-  border: 2px solid black;
+.container {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: 0 auto;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top:  100px;
+
 }
 
-#mid {
-  display: inline-flex;
-  width: 300px;
-  border: 2px solid black;
-  align-items: center;
-  flex-direction: column;
-}
-
-#side {
-  display: inline-flex;
-  width: 240px;
-  border: 1px solid black;
+.column {
+  display: flex;
+  margin-right: 32px;
   flex-direction: column;
 }
 .column.large {
-
+  width: 630px;
 
 }
 
 .column.medium {
-
-
-
+  width: 300px;
 }
 
 .column.small {
-
-
+  width: 240px;
 }
 
-body {
-
-}
-#left {
-  display:inline-flex;
-  width: 630px;
-  flex-direction: column;
-  border: 1 solid black;
+div {
+  border: 1px solid black;
 }
