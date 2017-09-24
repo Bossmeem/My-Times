@@ -22,16 +22,15 @@ p.logo {
 
 nav {
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 
 }
 
 li.top {
   display: inline-flex;
-  padding: 60 60;
+  padding: 30 30px;
+  align-items: center;
   margin: 0 auto;
-  width: 150px;
-
-
+  width: 100px;
+  text-decoration: underline;
 }
