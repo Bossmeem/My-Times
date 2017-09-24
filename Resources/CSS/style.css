@@ -2,9 +2,36 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 2 solid black;
+}
+
+div.logo {
   display: flex;
+  align-items: center;
+  position: fixed;
+  margin-left: 30px;
+}
+
+header p {
+  color: MediumAquamarine;
+}
+
+p.logo {
+  margin-right: 12px;
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+li.top {
   display: inline-flex;
+  padding: 60 60;
+  margin: 0 auto;
+  width: 150px;
+
+
 }
