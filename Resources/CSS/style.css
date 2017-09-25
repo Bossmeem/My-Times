@@ -162,3 +162,29 @@ nav.cookie {
   width: 220px;
   padding-right: 0px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  bottom: 0;
+  width: 100%;
+}
+
+span.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0px 20px;
+}
+
+span a {
+  padding: 0px 20px;
+}
+.MYT {
+    align-content: center;
+}
